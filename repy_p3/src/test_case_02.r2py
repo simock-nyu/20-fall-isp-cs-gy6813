@@ -1,0 +1,30 @@
+myfile0=ABopenfile("testfile.txt",True)  #Create an AB file
+myfile1=ABopenfile("testfile.txt",True)  #Create an AB file
+myfile2=ABopenfile("testfile.txt",True)  #Create an AB file
+myfile3=ABopenfile("testfile.txt",True)  #Create an AB file
+myfile4=ABopenfile("testfile.txt",True)  #Create an AB file
+myfile5=ABopenfile("testfile.txt",True)  #Create an AB file
+myfile6=ABopenfile("testfile.txt",True)  #Create an AB file
+myfile7=ABopenfile("testfile.txt",True)  #Create an AB file
+
+myfile0.writeat("Stest12345E",0)
+myfile1.writeat("SoneE",0)
+myfile2.writeat("StwoE",0)
+myfile3.writeat("SthreeE",0)
+myfile4.writeat("SfourE",0)
+myfile5.writeat("SfiveE",0)
+myfile6.writeat("SsixE",0)
+myfile7.writeat("SsevenE",0)
+
+myfile0.close()
+myfile1.close()
+myfile2.close()
+myfile3.close()
+myfile4.close()
+myfile5.close()
+myfile6.close()
+myfile7.close()
+
+
+myfile0=ABopenfile("testfile.txt",False)
+assert('Stest12345E' == myfile0.readat(None,0))

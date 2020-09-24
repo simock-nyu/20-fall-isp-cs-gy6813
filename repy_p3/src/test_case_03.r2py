@@ -1,0 +1,4 @@
+myfile = ABopenfile("testfile.txt",True)  #Create an AB file
+
+myfile.writeat("StestE", 0)
+myfile.close()
