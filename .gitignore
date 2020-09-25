@@ -1,0 +1,6 @@
+# Ignore every folder named venv at all depths
+**/venv/
+
+# Ignore the entire repy_v2 folder since that comes from another git repo
+repy_p3/src/repy_v2
+
